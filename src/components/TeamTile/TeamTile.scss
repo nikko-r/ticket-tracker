@@ -1,0 +1,24 @@
+.team-tile {
+    background-color: rgb(168, 236, 236);
+    margin: 0.2rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    .team-counter {
+        font-size: 3rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        .team-counter__button {
+            font-size: 3rem;
+            border: 0 solid transparent;
+            background-color: transparent;
+        }
+        .team-counter__counter {}
+    }
+}
